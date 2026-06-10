@@ -11,10 +11,17 @@ public class App {
        runStack();
        System.out.println("Ejercicio en clase");
        Ejercicio1 ejercicio1 = new Ejercicio1();
-       String texto = "Computacion";
-       System.out.println("Texto original: " + texto);
+       String texto = "COMPUTACION".toLowerCase();
+       System.out.println("Texto original: " +  texto);
        String invertido = ejercicio1.invertString(texto);
        System.out.println(invertido);
+       System.out.println("Ejercicio 2 Practica");
+       Ejercicio2 ejercicio2 = new Ejercicio2();
+       String texto1 = "ORURO".toLowerCase();
+       System.out.println("Texto original: "  +  texto1);
+       boolean palindromo = ejercicio2.esPalindormo(texto1);
+       System.out.println(palindromo);
+
     }
 
     private static void runStack() {

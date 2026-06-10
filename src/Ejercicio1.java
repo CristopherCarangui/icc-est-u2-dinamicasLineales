@@ -1,6 +1,6 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Stack;
+
 
 public class Ejercicio1 {
     ///
@@ -12,7 +12,6 @@ public class Ejercicio1 {
     /// 
     public String invertString( String texto){
         Deque<Character> pila = new ArrayDeque<>();
-        Stack <Character> l = new Stack<>();
         for(char letra : texto.toCharArray()){
             pila.push(letra);
 
@@ -20,8 +19,6 @@ public class Ejercicio1 {
         String invertido = "";
         while (!pila.isEmpty()) {
             invertido+=pila.pop();
-
-            
         }
 
         return invertido;
