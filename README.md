@@ -29,3 +29,5 @@ En esta practica se realizo un ejercio de ver si una palabra es palindromo y que
 ![alt text](image-2.png)
 ## Salida en Consola
 ![alt text](image-3.png)
+## Implemnetacion en App
+![alt text](image-4.png)
